@@ -1,0 +1,13 @@
+{
+  "name": "backend_mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "restaurant": "json-server --watch restaurant.json",
+    "marketplace": "json-server --watch marketplace.json"
+  },
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
